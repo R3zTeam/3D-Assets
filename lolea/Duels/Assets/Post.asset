@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       method: 0
       fxaaSettings:
@@ -102,8 +102,8 @@ MonoBehaviour:
       bloom:
         intensity: 0.5
         threshold: 1.1
-        softKnee: 0.487
-        radius: 4
+        softKnee: 0.588
+        radius: 4.39
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
@@ -132,13 +132,13 @@ MonoBehaviour:
         blue: {x: 0, y: 0, z: 1}
         currentEditingChannel: 0
       colorWheels:
-        mode: 1
+        mode: 0
         log:
           slope: {r: 0.8884277, g: 1, b: 0.68163884, a: 0}
-          power: {r: 1, g: 0.9660795, b: 0.66232705, a: 0}
+          power: {r: 1, g: 0.8260718, b: 0.4916258, a: 0}
           offset: {r: 0.991724, g: 0.98344946, b: 1, a: 0}
         linear:
-          lift: {r: 1, g: 0.87073463, b: 0.95649314, a: 0}
+          lift: {r: 0.42284894, g: 0.546348, b: 1, a: 0}
           gamma: {r: 0.37934417, g: 0.6186087, b: 1, a: 0}
           gain: {r: 1, g: 0.9430094, b: 0.8850349, a: 0}
       curves:
@@ -293,17 +293,17 @@ MonoBehaviour:
       size: 1
       luminanceContribution: 0.8
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
-      color: {r: 0, g: 0, b: 0, a: 1}
+      color: {r: 0.9264706, g: 0.48907498, b: 0.02043687, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
-      smoothness: 0.2
+      intensity: 0.485
+      smoothness: 1
       roundness: 1
       mask: {fileID: 0}
       opacity: 1
-      rounded: 0
+      rounded: 1
   dithering:
     m_Enabled: 0
   monitors:

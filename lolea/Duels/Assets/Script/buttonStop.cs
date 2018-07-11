@@ -84,7 +84,7 @@ public class buttonStop : MonoBehaviour {
         
         
         var bullet = (GameObject)Instantiate(bulletPrefarb, bulletSpawn.position, bulletSpawn.rotation);
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 8;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 38;
 
         timeManager.DoSlowMotion();
         Destroy(bullet, 15.0f);
